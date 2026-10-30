@@ -1,0 +1,18 @@
+{
+  "name": "kognai-research-brief",
+  "version": "0.1.0",
+  "description": "A product template on @kognai/build: turns a one-line request into a reviewed research brief (brief.md + brief.json).",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "bin": { "kognai-research-brief": "src/cli.js" },
+  "files": ["src/", "kognai-template.json", "README.md", "examples/"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@kognai/build": "^0.7.10"
+  }
+}

@@ -1,0 +1,143 @@
+
+   ╔══════════════════════════════════════════════════════════════════════╗
+   ║  ●  KOGNAI RUNTIME · ENGAGED                      2026-10-21 23:25:38  ║
+   ║   builder console · triple-supervisor + compliance · session #a6eq   ║
+   ╚══════════════════════════════════════════════════════════════════════╝
+   Workspace: (none , deliverables to /tmp; create .kognai/config.yaml to bind)
+
+   ╭─ Goal ───────────────────────────────────────────────────────────────╮
+   │ Write a research brief as ONE Markdown file named brief.md (a single
+   │ task, no code files). Topic: What causes coral reef bleaching and
+   │ how reefs recover. Audience: a busy non specialist reader. Length:
+   │ 400 to 600 words. Structure: a level 1 title, then the sections "##
+   │ Summary" (3 bullet points), "## Background", "## Key findings"
+   │ (numbered, each with a one line why it matters), "## Open questions"
+   │ and "## Sources to check" (named publications or datasets, no
+   │ invented URLs or figures). Plain language, no hype, state
+   │ uncertainty where it exists.
+   ╰──────────────────────────────────────────────────────────────────────╯
+
+
+   ◇ Planning
+
+     Routed to:  claude-haiku-4-5-20251001 (planner)
+     Decomposed: 1 task · 3.9s · $0.0013
+
+     Rationale: This goal requires a single comprehensive
+     Markdown file that synthesizes coral reef bleaching research for a
+     general audience. No decomposition needed,one atomic task covers
+     writing the complete brief.
+
+     Output dir: ./out
+
+     1. brief.md
+        Write a 400-600 word research brief on coral reef bleaching
+        causes and recovery. Include: (1) Level 1 title; (2) Summary
+        section with 3 bullet points; (3) Background section explaining
+        what coral bleaching is; (4) Key findings section with numbered
+        items, each followed by one-line importance statement; (5) Open
+        questions section; (6) Sources to check section listing real
+        publications/datasets (e.g., NOAA, Nature, Coral Reef
+        Resilience Program, IPCC reports). Use plain language, avoid
+        hype, explicitly note uncertainty. Target a busy non-specialist
+        reader.
+
+
+   ◇ Task 1/1 , brief.md
+
+
+   ◇ Generation
+
+     Routed to:  claude-haiku-4-5-20251001 (cloud)
+     Produced:   3929 chars · 48 lines · 11.3s · $0.0037
+
+   ◇ Review
+
+     ▸ Spec & Integration          Grade: A   claude-haiku-4-5-20251001 · 4.1s
+       Deliverable meets all six structural requirements with
+       comprehensive coverage: Level 1 title present, Summary with
+       three substantive bullets, Background section clearly explaining
+       coral bleaching mechanism, Key Findings with five numbered items
+       each paired with one-line importance statements, Open Questions
+       section with four distinct uncertainties, and Sources section
+       listing real institutions (NOAA, IPCC, Nature journals, TNC,
+       established databases). Word count approximately 550 fits target
+       range. Language is accessible to non-specialists, avoids hype,
+       and explicitly acknowledges uncertainty via open questions and
+       closing note. All specifications met without gaps or stubs.
+
+     ▸ Security & Runtime          Grade: A   claude-haiku-4-5-20251001 · 3.2s
+       This research brief contains no security or runtime concerns.
+       The content is plain text documentation without code, dynamic
+       execution, user input processing, or credential exposure.
+       Language is clear and factually grounded with appropriate
+       uncertainty caveats and source attribution.
+
+     ▸ Compliance review           Result: PASS   claude-haiku-4-5-20251001 · 4.1s
+       ✓ No hard-coded secrets, API keys, credentials, or sensitive data
+       ✓ No injection vectors, eval() calls, or dynamic code execution on untrusted input
+       ✓ No GDPR-violating PII collection, handling, or external telemetry
+       ✓ No deceptive claims; explicitly notes uncertainty and active research
+       ✓ No fabricated metrics or fake functionality
+       ✓ Sources listed are real, verifiable publications and datasets (NOAA, IPCC, Nature, Springer journals)
+       ✓ Plain language targets non-specialists as specified
+       ✓ Constitutional principles met: no harm, genuine content, transparent uncertainty
+       ✓ No copyright/license violations; original research brief format
+       ✓ Appropriate scope for educational research brief without regulatory violations
+
+   ◇ Verdict: SHIPPABLE
+
+     Code quality:  PASS  (Spec & Integration A, Security & Runtime A , both must reach C)
+     Compliance:    PASS  (10 findings)
+
+
+   ◇ Deliverable
+
+     Path:   ./out/brief.md
+     Size:   3929 chars · 48 lines
+
+     ── preview ──────────────────────────────────────────────────────────
+     # Coral Reef Bleaching: Causes, Recovery, and Remaining Uncertainties
+     
+     ## Summary
+     
+     - **Coral bleaching occurs when heat stress causes corals to expel symbiotic algae**, reducing energy production and risking mortality within weeks to months if conditions don't improve.
+     - **Ocean warming is the primary driver**, with secondary stressors including acidification, pollution, and disease accelerating decline in already-stressed reefs.
+     - **Recovery is possible but uncertain**,some reefs show resilience after bleaching events, while others face permanent degradation; outcomes depend heavily on local conditions and human management.
+     
+     ## Background: What Is Coral Bleaching?
+     
+     Corals are animals that form partnerships with microscopic algae living in their tissues. These algae perform photosynthesis, providing up to 90% of the coral's energy needs. When water temperature rises even 1-2°C above normal seasonal levels for several weeks, corals experience thermal stress. In response, they expel their algal partners,a survival mechanism, though counterintuitive. Without the algae, corals turn white (hence "bleached") and lose their primary food source. If temperature returns to normal within a few weeks, corals can reabsorb algae and survive. If stress persists, corals starve and die.
+     
+     ## Key Findings
+     
+     1. **Global ocean temperatures have risen ~1.1°C since pre-industrial times, directly correlating with increased bleaching frequency and severity.**
+     …  (33 more lines , open the file at the path above)
+     ────────────────────────────────────────────────────────────────────
+     Citizen score: kognai-build-coder grade A → score 95.0 · reputation 95.0 (n=2)
+
+
+   ◇ Validating project (install · typecheck)
+   ◇ Goal verdict: GOAL ACHIEVED
+
+     Tasks shipped:  1 / 1
+     Output dir:     ./out
+
+     Deliverables:
+       ✓ ./out/brief.md
+
+     Project validation:
+       ✓ critical-files , all present (1)
+       · referenced-imports (skipped) , no JS/TS files
+       · dependencies-install (skipped) , no package.json
+       · typecheck (skipped) , no tsconfig.json
+       · tests (skipped) , no package.json
+
+   Total: 19.3s · 5 model calls · $0.0100
+
+   Next:
+     cat ./out                # see the full file
+     # or rerun with --out your/project/file.ts to write into your repo
+
+
+--- stderr ---

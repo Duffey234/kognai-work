@@ -1,0 +1,21 @@
+{
+  "template": "research-brief-product",
+  "title": "Air Source Heat Pump Performance in Cold Climates",
+  "request": "How well air source heat pumps work in cold climates",
+  "mode": "cloud",
+  "sections": [
+    "Air Source Heat Pump Performance in Cold Climates",
+    "Summary",
+    "Background",
+    "Key Findings",
+    "Open Questions",
+    "Sources to Check"
+  ],
+  "words": 705,
+  "engine_files": [
+    "brief.md"
+  ],
+  "model_calls": 5,
+  "cost_usd": 0.0115,
+  "generated_at": "2026-10-21T23:26:16.624Z"
+}

@@ -1,0 +1,21 @@
+{
+  "template": "research-brief-product",
+  "title": "Coral Reef Bleaching: Causes, Recovery, and Remaining Uncertainties",
+  "request": "What causes coral reef bleaching and how reefs recover",
+  "mode": "cloud",
+  "sections": [
+    "Coral Reef Bleaching: Causes, Recovery, and Remaining Uncertainties",
+    "Summary",
+    "Background: What Is Coral Bleaching?",
+    "Key Findings",
+    "Open Questions",
+    "Sources to Check"
+  ],
+  "words": 517,
+  "engine_files": [
+    "brief.md"
+  ],
+  "model_calls": 5,
+  "cost_usd": 0.01,
+  "generated_at": "2026-10-21T23:26:16.730Z"
+}

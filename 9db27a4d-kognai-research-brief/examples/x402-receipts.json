@@ -1,0 +1,262 @@
+[
+  {
+    "t": "2026-10-21T19:25:05-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 2048,
+    "usage": {
+      "input_tokens": 495,
+      "output_tokens": 224,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:19-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 2048,
+    "usage": {
+      "input_tokens": 244,
+      "output_tokens": 1077,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:22-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 512,
+    "usage": {
+      "input_tokens": 1573,
+      "output_tokens": 89,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:23-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 512,
+    "usage": {
+      "input_tokens": 1550,
+      "output_tokens": 176,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:24-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 1024,
+    "usage": {
+      "input_tokens": 1667,
+      "output_tokens": 215,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:42-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 2048,
+    "usage": {
+      "input_tokens": 494,
+      "output_tokens": 222,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:53-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 2048,
+    "usage": {
+      "input_tokens": 234,
+      "output_tokens": 874,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:56-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 512,
+    "usage": {
+      "input_tokens": 1360,
+      "output_tokens": 64,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:57-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 512,
+    "usage": {
+      "input_tokens": 1337,
+      "output_tokens": 153,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  },
+  {
+    "t": "2026-10-21T19:25:57-0400",
+    "status": 200,
+    "amount_usdc": 0.02,
+    "model": "anthropic/claude-haiku-4.5",
+    "max_tokens": 1024,
+    "usage": {
+      "input_tokens": 1454,
+      "output_tokens": 199,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "cache_creation": {
+        "ephemeral_5m_input_tokens": 0,
+        "ephemeral_1h_input_tokens": 0
+      },
+      "inference_geo": null,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "tx": "omitted",
+    "network": "eip155:8453"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "id": "research-brief-product",
+  "name": "Research Brief (Product)",
+  "intent": [
+    "research brief",
+    "briefing",
+    "research",
+    "synthesis",
+    "explainer"
+  ],
+  "default_profile": {
+    "primary": "quality",
+    "secondary": [
+      "maintainability"
+    ]
+  },
+  "composition": {
+    "roles": [
+      {
+        "role": "researcher",
+        "count": 1
+      },
+      {
+        "role": "synthesizer",
+        "count": 1
+      },
+      {
+        "role": "reviewer",
+        "count": 2
+      }
+    ]
+  },
+  "workflow": "brief intake -> goal text -> @kognai/build goal run (plan -> generate -> two code reviews -> compliance review) -> shape into brief.md + brief.json -> ship if approved",
+  "skills": [
+    "claim-extraction",
+    "source-credibility",
+    "plain-language-summary"
+  ],
+  "tools": [
+    "markdown-editor",
+    "citation-manager"
+  ],
+  "cost_per_run": {
+    "cloud_usd": 0.0108,
+    "sovereign_usd": 0,
+    "measured_on": "2026-10-21",
+    "runs": 2,
+    "engine": "@kognai/build 0.7.10 goal mode, CLAUDE_MODEL=claude-haiku-4-5-20251001, KOGNAI_MAX_REPAIR=1",
+    "per_run_usd": [
+      0.0115,
+      0.01
+    ],
+    "model_calls_per_run": 5,
+    "note": "cloud_usd is the engine's own footer cost (real token usage at list price), mean of 2 runs; sovereign_usd is 0 because --sovereign routes every call to local Ollama"
+  }
+}

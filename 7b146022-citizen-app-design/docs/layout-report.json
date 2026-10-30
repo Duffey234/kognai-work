@@ -1,0 +1,170 @@
+[
+ {
+  "page": "index",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "design-system",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "first-run",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "lobby",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "chat",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "services",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "wallet",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "settings",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/first-run",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/lobby",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/chat",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/services",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/wallet",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "ar/settings",
+  "scheme": "light",
+  "scrollWidth": 360,
+  "body_bg": "rgb(251, 246, 238)"
+ },
+ {
+  "page": "index",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "design-system",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "first-run",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "lobby",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "chat",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "services",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "wallet",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "settings",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/first-run",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/lobby",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/chat",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/services",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/wallet",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ },
+ {
+  "page": "ar/settings",
+  "scheme": "dark",
+  "scrollWidth": 360,
+  "body_bg": "rgb(27, 25, 23)"
+ }
+]

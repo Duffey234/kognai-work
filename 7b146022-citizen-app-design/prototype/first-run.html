@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Welcome · Kognai citizen</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+<script src="assets/theme.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="app">
+<header class="bar"><span class="chip">Kognai citizen</span><h1>Welcome</h1><a class="btn" href="ar/first-run.html" hreflang="ar" lang="ar" aria-label="Read this screen in Arabic">العربية</a></header>
+<main id="main">
+<div class="steps" aria-label="Step 1 of 2"><span class="on"></span><span></span></div>
+<section class="card" aria-labelledby="h-hello"><div class="row"><img class="avatar hero" src="assets/citizen.svg" alt="Your citizen, Noor, a round terracotta avatar" width="96" height="96"><div><h2 id="h-hello">Meet your citizen</h2><p class="muted">A citizen is your own AI agent. It has its own identity, memory and a constitution of Five Laws. It works for you and tells you what it does.</p></div></div></section>
+<form class="card" action="lobby.html" method="get">
+<div class="field"><label for="citizen-name">Name your citizen</label><input type="text" id="citizen-name" name="name" value="Noor" aria-describedby="name-hint" autocomplete="off"><p id="name-hint" class="muted small">You can change the name later in Settings.</p></div>
+<div class="field"><label for="lang">Language</label><select id="lang" name="lang"><option value="en" selected>English</option><option value="ar">Arabic</option></select></div>
+<p class="small">Your citizen follows the Five Laws: the Solidarity Oath, the Renewal Mandate, Treasury Equilibrium, the Harm Shield and the Transparency Covenant.</p>
+<div class="switch"><label for="agree">I have read how my citizen works</label><input type="checkbox" id="agree" name="agree" checked></div>
+<p><a class="btn btn-primary btn-block" href="lobby.html">Start</a></p>
+</form>
+</main>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Settings · Kognai citizen</title>
+<link rel="stylesheet" href="../tokens/tokens.css">
+<link rel="stylesheet" href="assets/app.css">
+<script src="assets/theme.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="app">
+<header class="bar"><span class="chip">Kognai citizen</span><h1>Settings</h1><a class="btn" href="ar/settings.html" hreflang="ar" lang="ar" aria-label="Read this screen in Arabic">العربية</a></header>
+<main id="main">
+<section class="card" aria-labelledby="h-prof"><h2 id="h-prof">Your citizen</h2><div class="row"><img class="avatar" src="assets/citizen.svg" alt="Your citizen, Noor, a round terracotta avatar" width="56" height="56"><div class="field" style="flex:1"><label for="set-name">Citizen name</label><input type="text" id="set-name" name="name" value="Noor"></div></div></section>
+<section class="card" aria-labelledby="h-theme"><h2 id="h-theme">Theme</h2><div class="row" role="group" aria-labelledby="h-theme"><button class="btn" type="button" data-set-theme="light">Light</button><button class="btn" type="button" data-set-theme="dark">Dark</button><button class="btn" type="button" data-set-theme="system">Follow system</button></div>
+<div class="field" style="margin-top:var(--space-3)"><label for="set-lang">Language</label><select id="set-lang" name="lang"><option value="en" selected>English</option><option value="ar">Arabic</option></select></div></section>
+<section class="card" aria-labelledby="h-notify"><h2 id="h-notify">Notifications</h2><div class="switch"><label for="n-tasks">New tasks</label><input type="checkbox" id="n-tasks" checked></div><div class="switch"><label for="n-pay">Payments</label><input type="checkbox" id="n-pay" checked></div></section>
+<section class="card" aria-labelledby="h-priv"><h2 id="h-priv">Privacy</h2><div class="switch"><label for="p-mem">Keep memory on this device only</label><input type="checkbox" id="p-mem" checked></div><p class="row"><a class="btn" href="wallet.html">Export my memory</a></p><p class="muted small">This removes the citizen and its memory from this device.</p><a class="btn btn-danger" href="first-run.html">Delete my citizen</a></section>
+</main>
+<nav class="nav" aria-label="Main"><a href="lobby.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z" fill="currentColor"/></svg><span>Lobby</span></a><a href="chat.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h16v12H8l-4 4z" fill="currentColor"/></svg><span>Chat</span></a><a href="services.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="currentColor"/></svg><span>Services</span></a><a href="wallet.html"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 7h18v12H3zM3 7l3-3h12l3 3M16 13h3" stroke="currentColor" stroke-width="2" fill="none"/></svg><span>Wallet</span></a><a href="settings.html" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="3" fill="currentColor"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3" stroke="currentColor" stroke-width="2"/></svg><span>Settings</span></a></nav>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+ {"name": "trade signal list not checked", "file": "src/rules.ts", "find": "for (const { term, re } of SIGNAL_RES) if (re.test(text))", "replace": "for (const { term, re } of SIGNAL_RES) if (false)"},
+ {"name": "job refused terms not checked", "file": "src/rules.ts", "find": "for (const { term, re } of TERM_RES) if (re.test(text))", "replace": "for (const { term, re } of TERM_RES) if (false)"},
+ {"name": "unknown numbers allowed", "file": "src/rules.ts", "find": "if (unknownNumbers.length) out.push", "replace": "if (false) out.push"},
+ {"name": "dash check removed", "file": "src/rules.ts", "find": "if (DASH_RE.test(text)) out.push", "replace": "if (false) out.push"},
+ {"name": "non Latin digit check removed", "file": "src/rules.ts", "find": "if (NON_LATIN_DIGIT_RE.test(text)) out.push", "replace": "if (false) out.push"},
+ {"name": "word limit off by one", "file": "src/rules.ts", "find": "if (words > opts.maxWords)", "replace": "if (words > opts.maxWords + 1)"},
+ {"name": "weight keeps unknown flag ids", "file": "src/debate.ts", "find": "parsed.weight.filter((id) => flags.has(id))", "replace": "parsed.weight"},
+ {"name": "mode off still calls the route", "file": "src/debate.ts", "find": "if (mode === 'off') return blank('off', false);", "replace": ""},
+ {"name": "shadow mode shown to users", "file": "src/debate.ts", "find": "const shown = mode === 'on';", "replace": "const shown = mode !== 'off';"},
+ {"name": "cost not summed", "file": "src/debate.ts", "find": "out.usd += r.cost_usd;", "replace": "out.usd = r.cost_usd;"}
+]
